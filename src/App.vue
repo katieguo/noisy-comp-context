@@ -1,5 +1,6 @@
 <!-- Window is fixed, 102px, pointer cursor, gradual blurry effect on surrounding words. -->
 <!--  Comprehension questions appear afterwards in the same slide -->
+<!-- Comment to delete -->
 
 <template>
   <Experiment
