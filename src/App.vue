@@ -22,8 +22,6 @@
         <div style="background-color: lightgrey; padding: 10px">
           <b> Information About this Study </b>
         </div>
-        <div v-if="condition==0">TO REMOVE: Context is typed.</div>
-        <div v-if="condition==1">TO REMOVE: Context is spoken.</div>
         <p>
           Your participation in this research study is voluntary. Please read
           the text below carefully.
