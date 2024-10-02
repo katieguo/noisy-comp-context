@@ -567,8 +567,8 @@ import _ from "lodash";
 export default {
   name: "App",
   data() {
-    const numTestItems = 2;
-    const numFillers = 1;
+    const numTestItems = 40;
+    const numFillers = 34;
     const shuffledTestItems = _.shuffle(list).slice(0, numTestItems);
     const shuffledFillers = _.shuffle(fillers).slice(0, numFillers);
     const shuffledItems = _.shuffle(shuffledTestItems.concat(shuffledFillers))
