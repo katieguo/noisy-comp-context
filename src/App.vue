@@ -558,9 +558,10 @@
 <script>
 // Load data from csv files as javascript arrays with objects
 import practice from "../trials/practice.csv";
-// import list from "../trials/sentences.csv";
-import list from "../trials/sentences_simplest.csv";
-import fillers from "../trials/fillers_simplest.csv"
+import list from "../trials/sentences.csv";
+// import list from "../trials/sentences_simplest.csv";
+import fillers from "../trials/fillers.csv";
+// import fillers from "../trials/fillers_simplest.csv";
 import _ from "lodash";
 
 export default {
