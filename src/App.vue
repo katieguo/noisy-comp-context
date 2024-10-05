@@ -129,10 +129,10 @@
     <InstructionScreen :title="'Instructions'">
       <p>
         In this study, you will read sentences that may possibly contain errors,
-        and answer yes/no questions about the intended meaning of the sentence. Unlike
-        in normal reading, however, the texts will be blurred. In order to bring
-        the text into focus, move your mouse over it. When you are done reading,
-        click the 'Done Reading' button.
+        and choose the intended meaning of the sentence from a multiple choice
+        selection. Unlike in normal reading, however, the texts will be blurred.
+        In order to bring the text into focus, move your mouse over it. When you
+        are done reading, click the 'Done Reading' button.
       </p>
       
       <div v-if="condition==0">
@@ -568,7 +568,7 @@ export default {
   name: "App",
   data() {
     const numTestItems = 40;
-    const numFillers = 34;
+    const numFillers = 40;
     const shuffledTestItems = _.shuffle(list).slice(0, numTestItems);
     const shuffledFillers = _.shuffle(fillers).slice(0, numFillers);
     const shuffledItems = _.shuffle(shuffledTestItems.concat(shuffledFillers))

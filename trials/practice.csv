@@ -1,2 +1,3 @@
 experiment_id,condition,condition_id,item_id,error_sent,typo_sent,misspeak_sent
 pilot_practice,practice,practice,p1,what is the rate every your ?,what is the rate every hour ?,what is the rate every year ?
+pilot_practice,practice,practice,p2,there is a cake on the counter .,there is a caked on the counter .,there is a rake on the counter .
