@@ -595,7 +595,7 @@ export default {
         y: 0,
       },
       userResponse: "",
-      condition: Math.floor(Math.random() * 2), // get random int 0 or 1
+      condition: Math.floor(Math.random() * 2), // get random int 0 (text) or 1 (spoken)
       numTest: shuffledTestItems.length,
       numFillers: shuffledFillers.length
     };
